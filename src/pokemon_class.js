@@ -7,6 +7,16 @@ class Pokemon {
         this.pokemonContainer = document.querySelector('#pokemon-container')
     }
 
+    editName (newName) {
+        const nameEl = this.pokemonElement.querySelector('h4')
+        nameEl.innerText = newName
+        this.name = newName
+    }
+
+    remove () {
+        this.pokemonElement.remove()
+    }
+
     addPokemon () {
         const pokemonElement = document.createElement('div')
         pokemonElement.innerHTML = `
