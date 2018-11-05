@@ -1,6 +1,8 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+
 body {
-  font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande',
-    sans-serif;
+  font-family: 'Indie Flower', cursive;
+  text-align: center;
   font-weight: 300;
 }
 
@@ -24,7 +26,7 @@ body {
 
 #pokemon-logo {
   width: 300px;
-  margin-left: 330px;
+
 }
 
 input:focus {
@@ -43,4 +45,9 @@ input:focus {
 
 .flip-image {
   color: #2d72fc;
+}
+
+.row {
+  float: left;
+  width: 20%;
 }
